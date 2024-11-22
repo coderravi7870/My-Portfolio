@@ -33,13 +33,13 @@ const Home = () => {
 
         <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-6 animate-fade-in-up delay-400">
           <Link
-            href="/projects"
+            to="/projects"
             className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold py-3 px-8 rounded-full shadow-lg transform hover:scale-110 transition duration-300"
           >
             View My Projects
           </Link>
           <Link
-            href="/contact"
+            to="/contact"
             className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-600 text-white font-semibold py-3 px-8 rounded-full shadow-lg transform hover:scale-110 transition duration-300"
           >
             Contact Me
