@@ -1,8 +1,22 @@
-# React + Vite
+<h1 align="center">My Portfolio 🌟</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-v18-blue?style=flat&logo=react" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-v5-purple?style=flat&logo=vite" alt="Vite" />
+  <img src="https://img.shields.io/badge/TailwindCSS-v3-blue?style=flat&logo=tailwindcss" alt="Tailwind CSS" />
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  🚀 A modern and fully responsive portfolio website built with <strong>React.js (Vite)</strong> and <strong>Tailwind CSS</strong>.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Features
+✅ Fully responsive design  
+✅ Smooth animations with Framer Motion 
+✅ Fast and optimized with Vite  
+✅ Interactive UI with Tailwind CSS  
+
+## 📸 Preview
+<img src="/Images/portfolio-preview.png" alt="Portfolio Preview" />
+
+
