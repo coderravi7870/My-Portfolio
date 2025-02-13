@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/coderravi7870/My-Portfolio",
+ "homepage": "https://coderravi7870.github.io/My-Portfolio/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
