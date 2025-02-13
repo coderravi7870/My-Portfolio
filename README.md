@@ -14,9 +14,6 @@
 ✅ Fully responsive design  
 ✅ Smooth animations with Framer Motion 
 ✅ Fast and optimized with Vite  
-✅ Interactive UI with Tailwind CSS  
-
-## 📸 Preview
-<img src="/Images/portfolio-preview.png" alt="Portfolio Preview" />
+✅ Interactive UI with Tailwind CSS 
 
 
