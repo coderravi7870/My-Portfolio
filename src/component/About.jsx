@@ -9,7 +9,7 @@ import Motion from "../motion/Motion";
 import StarCanvas from "../canvas/Stars";
 
 const About = () => {
-  const resumeImageURL = "/Images/resume.jpg";
+  const resumeImageURL = "/Images/resume.png";
   const resumeDownloadURL = "https://amethyst-malissia-27.tiiny.site";
 
   return (
