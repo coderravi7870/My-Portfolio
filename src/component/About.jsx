@@ -10,7 +10,7 @@ import StarCanvas from "../canvas/Stars";
 
 const About = () => {
   const resumeImageURL = "/Images/resume.png";
-  const resumeDownloadURL = "https://amethyst-malissia-27.tiiny.site";
+  const resumeDownloadURL = "https://ivory-ingaborg-66.tiiny.site";
 
   return (
     <div
