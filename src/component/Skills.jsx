@@ -7,23 +7,34 @@ import {
   FaHtml5,
   FaCss3Alt,
   FaJsSquare,
-  FaGitAlt,
+  FaGitAlt, 
 } from "react-icons/fa";
-import { SiCplusplus, SiPostman } from "react-icons/si"; // Added icons for C++ and Postman
+import { SiCplusplus, SiPostman ,SiMysql,SiPostgresql,SiNextdotjs} from "react-icons/si"; 
+import { SiShadcnui } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiClerk } from "react-icons/si";
+import { TbSql } from "react-icons/tb";
 import Motion from "../motion/Motion";
 import StarCanvas from "../canvas/Stars";
 
 const skills = [
-  { name: "React", icon: <FaReact />, color: "text-blue-500" },
+  { name: "Next.js", icon: <SiNextdotjs />, color: "text-blue-500" },
+  { name: "React.js", icon: <FaReact />, color: "text-blue-500" },
   { name: "Node.js", icon: <FaNodeJs />, color: "text-green-600" },
   { name: "MongoDB", icon: <FaDatabase />, color: "text-green-500" },
   { name: "Express.js", icon: <FaNodeJs />, color: "text-gray-500" },
   { name: "HTML5", icon: <FaHtml5 />, color: "text-orange-600" },
   { name: "CSS3", icon: <FaCss3Alt />, color: "text-blue-400" },
+  { name: "TailwindCss", icon: <RiTailwindCssFill />, color: "text-blue-400" },
   { name: "JavaScript", icon: <FaJsSquare />, color: "text-yellow-500" },
   { name: "Git", icon: <FaGitAlt />, color: "text-red-600" },
-  { name: "C++", icon: <SiCplusplus />, color: "text-blue-700" }, // Updated icon for C++
-  { name: "Postman", icon: <SiPostman />, color: "text-orange-500" }, // Added Postman icon
+  { name: "C++", icon: <SiCplusplus />, color: "text-blue-700" }, 
+  { name: "Postman", icon: <SiPostman />, color: "text-orange-500" }, 
+  { name: "SQL", icon: <TbSql />, color: "text-blue-500" }, 
+  { name: "MySql", icon: <SiMysql />, color: "text-orange-500" }, 
+  { name: "PostgreSql", icon: <SiPostgresql />, color: "text-orange-500" }, 
+  { name: "Shadcnui", icon: <SiShadcnui />, color: "text-orange-500" }, 
+  { name: "Clerk", icon: <SiClerk />, color: "text-blue-500" }, 
 ];
 
 const Skills = () => {

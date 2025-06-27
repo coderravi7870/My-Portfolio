@@ -3,69 +3,43 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import Motion from "../motion/Motion";
 import StarCanvas from "../canvas/Stars";
 
-// const projects = [
-//   {
-//     title: "Dr Appointment System",
-//     description: "A website site powered by React",
-//     link: "https://dr-appointment-user.vercel.app",
-//     github: "https://github.com/coderravi7870/all_Code_Dr_Appoinment",
-//     image: "/Images/drapp.png",
-//   },
-//   {
-//     title: "Chat Application",
-//     description: "A website site powered by React",
-//     link: "https://chat-app-frontend-taupe.vercel.app",
-//     github: "https://github.com/coderravi7870/ChatApp-Frontend",
-//     image: "/Images/chatapp.png",
-//   },
-//   {
-//     title: "Gramify a Social App",
-//     description: "I have build it by MERN stack.",
-//     link: "https://sensational-dieffenbachia-d7d4e3.netlify.app",
-//     github: "https://github.com/coderravi7870/Gramify_Frontend",
-//     image: "/Images/gramify.png",
-//   },
-//   {
-//     title: "Moviex_World",
-//     description: "A website site powered by React",
-//     link: "https://movie-world-project-react-redux.vercel.app",
-//     github: "https://github.com/coderravi7870/MovieWorld_Project-React-Redux-",
-//     image: "/Images/movie.png",
-//   },
-//   {
-//     title: "Todo-Project",
-//     description: "A website site powered by React",
-//     link: "https://todo-project-orpin.vercel.app",
-//     github: "https://github.com/coderravi7870/Todo-Project",
-//     image: "/Images/todo.png",
-//   },
-//   {
-//     title: "File-Sharing",
-//     description: "A modern web app using MERN .",
-//     link: "https://superlative-kangaroo-9543f5.netlify.app",
-//     github: "https://github.com/coderravi7870/File-Sharing",
-//     image: "/Images/fileSharing.png",
-//   },
-//   {
-//     title: "Wether-application",
-//     description: "A modern web app using MERN .",
-//     link: "https://wether-project-react.vercel.app",
-//     github: "https://github.com/coderravi7870/Wether-Project-React-",
-//     image: "/Images/wether.png",
-//   },
-  
-  
-// ];
 
 const projects = [
+  {
+    title: "Chatty-FullStack",
+    description: `This real-time chat application is built using the MERN (MongoDB, Express.js, React.js, Node.js) stack, providing a seamless and interactive messaging experience. It utilizes Socket.io for real-time communication, ensuring instant message delivery. Users can engage in private chats, and media sharing.
+  
+    The app features authentication using JWT, allowing users to sign up, log in, and maintain secure sessions. It includes online/offline status indicators, message timestamps, and read receipts for a smooth chat experience. The frontend is designed with React.js for a modern and responsive UI.
+  
+    The backend, powered by Node.js , Express.js and FastApi, efficiently handles user connections, message storage, and notifications. MongoDB ensures data persistence, storing user information and chat history securely.`,
+    link: "https://chatty-fullstack-i22n.onrender.com",
+    github: "https://github.com/coderravi7870/Chatty_fullStack",
+    image: "/Images/chatty_fullStack.png",
+  },
+  {
+    title: "Book_Seller e-commerce",
+    description: `Book_Seller is a full web application developed using the FullStack(Next.js, MongoDB, Talwindcss, Shadcn ui, Clerk Authentication), providing online book shopping. The platform enables users to search for Best Book based on their interest.
+    It is built with Next.js for a smooth and dynamic user experience, ensures fast API responses. MongoDB is used for secure data storage.`,
+    link: "https://book-seller-two.vercel.app",
+    github: "https://github.com/coderravi7870/Book_Seller",
+    image: "/Images/bookNest.png",
+  },
   {
     title: "Dr Appointment System",
     description: `Dr Appointment System is a full web application developed using the MERN (MongoDB, Express.js, React.js, Node.js) stack, providing a seamless experience for booking doctor appointments online. The platform enables users to search for doctors based on their specialization, availability, and location. Patients can easily view available slots and book appointments, while doctors can manage their schedules efficiently.
     The system features a powerful Admin Panel that allows administrators to oversee users, doctors, and appointments.
-    The frontend is built with React.js for a smooth and dynamic user experience, while the backend, powered by Node.js and Express.js, ensures fast API responses. MongoDB is used for secure data storage. This system revolutionizes online doctor appointments, making healthcare more accessible and efficient.`,
+    The frontend is built with React.js for a smooth and dynamic user experience, while the backend, powered by Node.js and Express.js, ensures fast API responses and with razorpay. MongoDB is used for secure data storage. This system revolutionizes online doctor appointments, making healthcare more accessible and efficient.`,
     link: "https://dr-appointment-user.vercel.app",
     github: "https://github.com/coderravi7870/all_Code_Dr_Appoinment",
     image: "/Images/drapp.png",
+  },
+  {
+    title: "Ai-voice-agent",
+    description: `Ai-voice-agent is a full web application developed using the Next.js, providing a seamless experience for study. The platform enables users to select their interested filled. User can easily use interface.
+    It is build with Next.js for a smooth and dynamic user experience and with gemini ai for get answer dought, ensures fast API responses. MongoDB is used for secure data storage. And with razorpay`,
+    link: "https://ai-coaching-voice-agent-iota.vercel.app",
+    github: "https://github.com/coderravi7870/Ai-Coaching-Voice-Agent",
+    image: "/Images/ai-voice-agent.png",
   },
   {
     title: "Chat Application",

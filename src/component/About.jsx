@@ -9,8 +9,9 @@ import Motion from "../motion/Motion";
 import StarCanvas from "../canvas/Stars";
 
 const About = () => {
-  const resumeImageURL = "/Images/resume.png";
-  const resumeDownloadURL = "https://red-angelica-4.tiiny.site";
+  const resumeImageURL = "/Images/my-resume.png";
+  // const resumeDownloadURL = "https://red-angelica-4.tiiny.site";
+  const resumeDownloadURL = "https://brown-cybil-34.tiiny.site/";
 
   return (
     <div
@@ -57,7 +58,7 @@ const About = () => {
               <FaLaptopCode className="text-white text-5xl mb-4 transition-transform duration-200 transform animate-bounce" />
               <h3 className="text-2xl font-semibold underline">My Skills</h3>
               <p className="mt-2">
-                Proficient in JavaScript, React, Node.js, and MongoDB. I am
+                Proficient in JavaScript, React.js,Next.js, Node.js, MongoDB and Ai intregration. I am
                 constantly learning and adapting to new technologies.
               </p>
             </div>
