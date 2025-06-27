@@ -21,13 +21,6 @@ const Education = () => {
 
   const certificationData = [
     {
-      title: "Full Stack Web Development Certification",
-      institution: "PW-Skills",
-      year: "2024",
-      description:
-        "Completed a comprehensive course on full-stack development.",
-    },
-    {
       title: "C++ and Data Structures",
       institution: "Cooding spoon",
       year: "2022",
